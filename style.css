@@ -1,0 +1,78 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#registerContainer {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+h2 {
+    text-align: center;
+}
+
+#submitButton {
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: #16B64E;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#container {
+    width: 400px;
+    height: 500px;
+    border: solid 1px lightslategray;
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: 140%;
+}
+
+#emptyMessage {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 150px;
+}
+
+.dltButton {
+    display: inline-block;
+    margin-top: 15px;
+}
+#deleteButton {
+    border-radius: 8px;
+    border: solid 1px lightslategrey;
+    background-color: #F33016;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#checkIn {
+    margin-left: 120px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: solid 1px lightslategrey;
+    cursor: pointer;
+}
+
+#fastTrack {
+    background-color: #FFCE47;
+    border: solid 1px gray;
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}

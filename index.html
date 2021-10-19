@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARL Airport - Queue System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Arlanda Airport Queue System</h1>
+
+<div id="registerContainer">
+    <h2>Welcome, check yourself in below</h2>
+    <label class="name" for="nameInput">Enter your full name:</label>
+    <input class="name" type="text" id="nameInput" placeholder="Jane Doe...">
+    <button class="name" type="button" id="submitButton">Submit</button>
+
+    <label class="dltButton" for="deleteButton">Remove the first person in queue after check-in</label>
+    <button class="dltButton" id="deleteButton">Delete</button>
+</div>
+
+<div id="container">
+    <h3>Queue list</h3>
+    <p id="emptyMessage">The queue is currently empty!</p>
+    <ol id="queueList">
+        
+    </ol>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
