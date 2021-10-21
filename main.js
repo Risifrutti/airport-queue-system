@@ -8,6 +8,10 @@ let emptyMessage = document.querySelector("#emptyMessage");
 
 let deleteButton = document.querySelector("#deleteButton");
 
+if (queueList.childElementCount === 0) {
+    emptyMessage.innerText = "The queue is currently empty!";
+}
+
 submitButton.addEventListener("click", () => {
 
     if (nameInput.value === "") {
@@ -55,6 +59,8 @@ submitButton.addEventListener("click", () => {
             }
         })
 
-        container.removeChild(emptyMessage);
+        if (queueList.hasChildNodes()) {
+            emptyMessage.innerText = "";
+        }
     }
 })
